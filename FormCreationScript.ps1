@@ -1,5 +1,5 @@
 ﻿#POSH Form Creator#
-#This was made because I'm too poor to afford Powershell Studio.
+
 
 #Add Dependencies#
 Add-Type -AssemblyName System.Windows.Forms 
