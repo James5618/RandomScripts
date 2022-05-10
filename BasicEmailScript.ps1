@@ -1,0 +1,1 @@
+﻿Send-MailMessage -From 'Ian Lilly <ianlilly@warwickshire.gov.uk>' -To 'RE-IA-CS-device-support<RE-IA-CS-device-support@warwickshire.gov.uk>' -Subject 'Windows 10 WIM Image has been updated.' -Body "Hi All, I've just updated the Windows 10 WIM image and it's now ready to use." -Priority High -DeliveryNotificationOption OnSuccess
