@@ -1,0 +1,1 @@
+set-location -Path HKLM\SYSTEM\CurrentControlSet\Control\Power
