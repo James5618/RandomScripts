@@ -19,7 +19,7 @@ Function Get-Username {
 
 get-username
 
-$computers = Get-QADComputer | where {$_.accountisdisabled -eq $false} -searchroot '\\WCC-CORP.ad\computers'
+$computers = Get-QADComputer | where {$_.accountisdisabled -eq $false} -searchroot '\\activedirectorydsserver\computers'
 foreach ($comp in $computers) {
     $Computer = $comp.Name
     $ping = new-object System.Net.NetworkInformation.Ping
