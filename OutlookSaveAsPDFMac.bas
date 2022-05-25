@@ -20,7 +20,7 @@ Sub SaveAsPDFfile()
     Set tmpFileName = FSO.GetSpecialFolder(2)
     
     'construct the filename for the temp mht-file
-    strName = "www_howto-outlook_com"
+    strName = "pdfexport"
     tmpFileName = tmpFileName & "\" & strName & ".mht"
     
     'Save the mht-file
