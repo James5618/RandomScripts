@@ -280,7 +280,7 @@ Function Generate-PnPSitePermissionRpt()
    }
 }
 #Connect to Admin Center
-$TenantAdminURL = "https://goldcare-admin.sharepoint.com"
+$TenantAdminURL = ""
 Connect-PnPOnline -Url $TenantAdminURL -UseWebLogin 
 #Get All Site collections - Exclude: Seach Center, Redirect site, Mysite Host, App Catalog, Content Type Hub, eDiscovery and Bot Sites
 $SitesCollections = Get-PnPTenantSite | Where -Property Template -NotIn ("SRCHCEN#0","REDIRECTSITE#0", "SPSMSITEHOST#0", "APPCATALOG#0", "POINTPUBLISHINGHUB#0", "EDISC#0", "STS#-1")
